@@ -1,0 +1,109 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300);
+
+.login {
+  width: 500px;
+  padding: 10% 0 0;
+  margin: auto;
+  position: relative;
+
+}
+.info{
+   display: grid;
+   text-align: center;
+   background: #FFFFFF;
+   z-index: 1;
+   max-width: 360px;
+   margin: 0 auto 100px;
+   margin-bottom: 0px;
+   padding-top: 45px;
+   padding-right: 45px;
+   padding-left: 45px;
+  
+}
+.form {
+    display: grid;
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding-bottom: 45px;
+    padding-right: 45px;
+    padding-left: 45px;
+    text-align: center;
+   
+  }
+
+.form input {
+    font-family: "Lato", sans-serif;
+    outline: 0;
+    background: #e7e4e4;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+
+#sub {
+    font-family: "Lato", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: rgb(0,65,255);
+    background: linear-gradient(90deg, rgba(0,65,255,1) 0%, rgba(18,31,194,1) 0%, rgba(0,212,255,1) 100%);
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+  }
+  #reg{
+    display: grid;
+
+ 
+   
+    font-family: "Lato", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: rgb(0,65,255);
+    background: linear-gradient(90deg, rgba(0,65,255,1) 0%, rgba(18,31,194,1) 0%, rgba(0,212,255,1) 100%);
+    width: 100%;
+    border: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+  }
+  a:hover, a:visited, a:link, a:active
+{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.form button:hover,.form button:active,.form button:focus {
+    background: #3d3d3d;
+  }
+
+.form .alternate {
+    margin: 20px 0 0;
+    font-size: 16px;
+  }
+.form .alternate a {
+    color: #3d3d3d;
+    text-decoration: underline;
+  }
+.form .registration-form {
+    display: none;
+  }
+
+body {
+    background: rgb(0,65,255);
+background: linear-gradient(90deg, rgba(0,65,255,1) 0%, rgba(18,31,194,1) 0%, rgba(0,212,255,1) 100%);
+    font-family: "Lato", sans-serif;
+  }

@@ -1,0 +1,30 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="{% static 'home/login.css' %}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<div class="login">
+    <div class="info">
+        <h3>Välkommen till Payforms</h3>
+        <p>Vänligen logga in för att börja redigera evenemang</p>
+    </div>
+    <div class="form">
+
+        <form class="login-form">
+                {%csrf_token%}
+                {{loginform}}
+                <input type="submit" id="sub" value="Log In">
+        
+           
+           
+        
+            <p id="reg"><a href="../register">Register</a></p>
+        </form>
+    </div>
+</div>

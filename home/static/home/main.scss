@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: gray;
+}
+#tools{
+    position: fixed;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+
+    height: 50vh;
+    width: 40px;
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+#tools input{
+    width: 90%;
+    height: 40px;
+    background-color: black;
+}
+
+
+#container{
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.field{
+    width: 30vw;
+    height: 150px;
+    background-color: white;
+
+    margin-bottom: 20px;
+}
